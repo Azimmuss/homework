@@ -32,7 +32,7 @@ class Classmate(Person):
 
 
 
-classmate = Classmate("Артем", "октябре 23 числа 1990 года",  "доктора", 5)
-friend = Friend('Кирилл', "11 января 2000 года", "продавцом", "играю в игры")
+classmate = Classmate("Артем", "октябре 23 числа 2007 года",  "доктора", 5)
+friend = Friend('Кирилл', "11 января 2008 года", "продавцом", "играю в игры")
 friend.introduce(5)
 classmate.introduce("играю в игры")
