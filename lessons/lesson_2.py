@@ -20,7 +20,6 @@ class Bus(Car):
     def drive_to_location(self, location):
         print(f'Bus {self.model} is driving to {location}')
 
-print('hello world')
 
 
 

@@ -4,13 +4,13 @@ from bisect import bisect_right
 class Person:
     def __init__(self, name, brith_date, occupation, higter_education):
         self.name = name
-        self.brint_date = brith_date
+        self.brith_date = brith_date
         self.occupation = occupation
         self.higter_education = higter_education
 
     def info(self):
         print(f"Имя: {self.name}")
-        print(f"Дата рождения: {self.brint_date}")
+        print(f"Дата рождения: {self.brith_date}")
         print(f"Профессия: {self.occupation}")
         print(f'Высшее образования: {self.higter_education}')
 
