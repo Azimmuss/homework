@@ -1,5 +1,5 @@
 class Distance:
-    def init(self, value, unit):
+    def __init__(self, value, unit):
         self.value = value
         self.unit = unit
 
@@ -16,7 +16,7 @@ class Distance:
         elif self.unit == "km":
             return self.value * 1000
         else:
-            raise ValueError("Неизвестная единица измерения")
+            raise ValueError("Ошибка введите корректную единицу измерения")
 
     def add(self, other):
         total_meters = self.to_meters() + other.to_meters()
